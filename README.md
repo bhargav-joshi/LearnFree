@@ -25,6 +25,10 @@
   </p>
 </p>
 
+# Articles
+
+- [Top 5 Aptitude Test Websites](https://bhargav-joshi.github.io/LearnFree/AptitudeTestWebsites.html)
+
 
 ### Want to contribute ?
 - Make a Pull request -> Before that Read the Guidelines
