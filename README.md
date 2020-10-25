@@ -1,8 +1,10 @@
-# LearnFree - The Free Learning Portal for Everyone
-
-![](https://badges.pufler.dev/created/bhargav-joshi/LearnFree?color=informational) 
-![](https://badges.pufler.dev/updated/bhargav-joshi/LearnFree?color=orange) 
-![](https://badges.pufler.dev/visits/bhargav-joshi/LearnFree?color=yellowgreen) 
+<h1 align="center">LearnFree - The Free Learning Portal for Everyone 👋</h1>
+<p align="center">
+  <img src="https://img.shields.io/github/release-date/bhargav-joshi/LearnFree?style=for-the-badge&color=blue" />
+   <img src="https://img.shields.io/github/contributors/bhargav-joshi/LearnFree?style=for-the-badge&color=orange" />
+    <img src="https://img.shields.io/github/commit-activity/w/bhargav-joshi/LearnFree?style=for-the-badge&color=blueviolet" />
+    <img src="https://img.shields.io/github/v/release/bhargav-joshi/LearnFree?style=for-the-badge&color=red">
+</p>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -35,3 +37,15 @@
 
 ## Contributers 
 ![Contributors Display](https://badges.pufler.dev/contributors/bhargav-joshi/LearnFree/?size=50&padding=5&bots=true)
+
+<!-- CONTRIBUTING -->
+## Want to Contribute ? 🚀
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
