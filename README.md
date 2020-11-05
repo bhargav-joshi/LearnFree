@@ -16,10 +16,10 @@
   <h3 align="center">LearnFree - The Free Learning Portal for Everyone</h3>
 
   <p align="center">
-    <a href="https://bhargav-joshi.github.io/LearnFree/Learn-git.html"><strong>Explore Site »</strong></a>
+    <a href="https://bhargav-joshi.github.io/LearnFree/index.html"><strong>Explore Site »</strong></a>
     <br />
     <br />
-    <a href="https://bhargav-joshi.github.io/LearnFree/Learn-git.html">View Demo</a>
+    <a href="https://bhargav-joshi.github.io/LearnFree/index.html">View Demo</a>
     ·
     <a href="https://github.com/bhargav-joshi/LearnFree/issues">Report Bug</a>
     ·
