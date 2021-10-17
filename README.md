@@ -37,7 +37,7 @@
 - Make a Pull request -> Before that Read the Guidelines
 
 ## Contributers 
-![Contributors Display](https://badges.pufler.dev/contributors/bhargav-joshi/LearnFree/?size=50&padding=5&bots=true)
+[![Contributors Display](https://badges.pufler.dev/contributors/bhargav-joshi/LearnFree?size=50&padding=5&bots=true)](https://badges.pufler.dev)
 
 <!-- CONTRIBUTING -->
 ## Want to Contribute ? 🚀
