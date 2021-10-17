@@ -2,11 +2,10 @@
 vector<vector<int>> adj;  // adjacency list representation
 int n; // number of nodes
 int s; // source vertex
-
 queue<int> q;
 vector<bool> used(n);
 vector<int> d(n), p(n);
-
+// used queue data structure to visit all nodes present at same level
 q.push(s);
 used[s] = true;
 p[s] = -1;
