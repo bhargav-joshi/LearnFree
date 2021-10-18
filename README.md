@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/github/commit-activity/w/bhargav-joshi/LearnFree?style=for-the-badge&color=blueviolet" />
     <img src="https://img.shields.io/github/v/release/bhargav-joshi/LearnFree?style=for-the-badge&color=red">
 </p>
-
+<!-- this is hacktoberfest2021 -->
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
