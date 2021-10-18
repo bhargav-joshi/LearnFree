@@ -1,4 +1,4 @@
-// BFS or level order traversal
+//#1 BFS or level order traversal
 vector<vector<int>> adj;  // adjacency list representation
 int n; // number of nodes
 int s; // source vertex
@@ -22,7 +22,7 @@ while (!q.empty()) {
     }
 }
 
-// dfs algo 
+//#2 dfs algo 
 vector<vector<int>> adj; // graph represented as an adjacency list
 int n; // number of vertices
 
@@ -36,7 +36,7 @@ void dfs(int v) {
     }
 }
 
-// algo to find the connected components in the graph
+//#3 algo to find the connected components in the graph
 int n;
 vector<int> g[MAXN] ;
 bool used[MAXN] ;
@@ -66,7 +66,7 @@ void find_comps() {
         }
 }
 
-// algo to find bridges in graph
+//#4 algo to find bridges in graph
 int n; // number of nodes
 vector<vector<int>> adj; // adjacency list of graph
 
@@ -98,5 +98,45 @@ void find_bridges() {
     for (int i = 0; i < n; ++i) {
         if (!visited[i])
             dfs(i);
+    }
+}
+
+//#5 Algo to find articulation points in a graph
+
+int n; // number of nodes
+vector<vector<int>> adj; // adjacency list of graph
+
+vector<bool> visited;
+vector<int> tin, low;
+int timer;
+
+void dfs(int v, int p = -1) {
+    visited[v] = true;
+    tin[v] = low[v] = timer++;
+    int children=0;
+    for (int to : adj[v]) {
+        if (to == p) continue;
+        if (visited[to]) {
+            low[v] = min(low[v], tin[to]);
+        } else {
+            dfs(to, v);
+            low[v] = min(low[v], low[to]);
+            if (low[to] >= tin[v] && p!=-1)
+                IS_CUTPOINT(v);
+            ++children;
+        }
+    }
+    if(p == -1 && children > 1)
+        IS_CUTPOINT(v);
+}
+
+void find_cutpoints() {
+    timer = 0;
+    visited.assign(n, false);
+    tin.assign(n, -1);
+    low.assign(n, -1);
+    for (int i = 0; i < n; ++i) {
+        if (!visited[i])
+            dfs (i);
     }
 }
