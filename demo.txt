@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>LearnFree</title>
+  <meta content="LearnFree" name="descriptison">
+  <meta content="LearnFree" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-9 d-flex align-items-center">
+         <!-- <h1 class="logo mr-auto"><a href="index.html">Learn - F r e e</a></h1>
+           Uncomment below if you prefer to use an image logo -->
+           <a href="index.html" class="logo mr-auto"><img src="assets/img/logo2.svg" alt="" class="img-fluid"></a>
+
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li><a href="https://bhargav-joshi.github.io/LearnFree/index.html">Home</a></li>
+              <li><a href="#pricing">Articles</a></li>
+              <li><a href="#CheatSheets">CheatSheets</a></li>
+              <li><a href="#E-books">E-books</a></li>
+            <!--  <li class="drop-down"><a href="">Articles</a>
+                <ul>
+                  <li><a href="#">Articles</a></li>
+                  <li class="drop-down"><a href="#">More Articles</a>
+                    <ul>
+                      <li><a href="#">Article 1</a></li>
+                      <li><a href="#">Article 2</a></li>
+                      <li><a href="#">Article 3</a></li>
+                      <li><a href="#">Article 4</a></li>
+                      <li><a href="#">Article 5</a></li>
+                    </ul>
+                  </li>
+                 <li><a href="#">Drop Down 2</a></li>
+                  <li><a href="#">Drop Down 3</a></li>
+                  <li><a href="#">Drop Down 4</a></li>
+                </ul>
+              </li>
+             <li><a href="#contact">Contact</a></li>-->
+
+            </ul>
+          </nav><!-- .nav-menu -->
+
+          <a href="https://github.com/bhargav-joshi/LearnFree" class="get-started-btn scrollto">Contribute</a>
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container-fluid" data-aos="fade-up">
+      <div class="row justify-content-center">
+        <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1>Bettter Learning Experince With Learn - Free</h1>
+          <h2>For the Community - By the Community - To the Community :)</h2> <br>
+          <div><a href="#about" class="btn-get-started scrollto">Get Started</a></div>
+        </div>
+        <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
+          <img src="assets/img/hero-imgg.svg" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <h3>Keep Learning , Keep Growing</h3>
+            <p class="font-italic">
+              Some Key Points
+            </p>
+            <ul>
+              <li><i class="icofont-check-circled"></i> No Ads </li>
+              <li><i class="icofont-check-circled"></i> Easy Steps </li>
+              <li><i class="icofont-check-circled"></i> Open-Source </li>
+            </ul>
+            <a href="#" class="read-more">Read More <i class="icofont-long-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts"> 
+      <div class="container" >
+
+        <div class="row counters" >
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">3000</span>
+            <p>Students Helped Virtually</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">5</span>
+            <p>Articles</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">16</span>
+            <p>Cheatsheets</p>
+          </div>
+           <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">20</span>
+            <p>E-books</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+
+
+    
+<!-- ======= Articles Section ======= -->
+    <section id="pricing" class="pricing section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Check Posted Articles</h2>
+        </div>
+
+        <div class="row">
+
+         
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>Article 1</h3>
+              
+              <p><b>Learn Git & It's Commands. Learn How to performed from command prompt ? </b></p>
+              
+              <h4><sup>$</sup>Free<span> / Forever</span></h4>
+              
+              <div class="btn-wrap">
+                <a href="https://bhargav-joshi.github.io/LearnFree/Learn-git.html" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>Article 2</h3>
+               <p><b>5 Best Websites for Practice Aptitude Tests which will help you to boost uor skills</b></p>
+              <h4><sup>$</sup>Free<span> / Forever</span></h4>
+             
+              <div class="btn-wrap">
+                <a href="https://bhargav-joshi.github.io/LearnFree/AptitudeTestWebsites.html" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>Article 3</h3>
+              
+              <p><b>Learn DBMS in 5 days </b></p>
+              
+              <h4><sup>$</sup>Free<span> / Forever</span></h4>
+              
+              <div class="btn-wrap">
+                <a href="https://bhargav-joshi.github.io/LearnFree/Learn-git.html" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>Article 4</h3>
+              
+              <p><b>Web development bootcamp</b></p>
+              
+              <h4><sup>$</sup>Free<span> / Forever</span></h4>
+              
+              <div class="btn-wrap">
+                <a href="https://bhargav-joshi.github.io/LearnFree/Learn-git.html" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>Article 5</h3>
+               <p><b>Understanding JWT Authentication with Node JS</b></p>
+              <h4><sup>$</sup>Free<span> / Forever</span></h4>
+             
+              <div class="btn-wrap">
+                <a href="https://bhargav-joshi.github.io/LearnFree/jwtArticle.html" class="btn-buy">Check Now</a>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </section><!-- End Articles Section -->
+
+
+      
+<!-- ======= CheatSheets Section ======= -->
+    <section id="CheatSheets" class="pricing section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>CheatSheets</h2>
+        </div>
+
+        <div class="row">
+
+         
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>1</h3>
+              <p><b>PostgreSQL Cheat Sheet from postgresqltutorial.com </b></p>
+              <div class="btn-wrap">
+                <a href="https://www.postgresqltutorial.com/wp-content/uploads/2018/03/PostgreSQL-Cheat-Sheet.pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>2</h3>
+               <p><b>Pandas Cheat Sheet from pandas.pydata.org</b></p>
+               <div class="btn-wrap">
+                <a href="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>3</h3>
+               <p><b>Java Cheat Sheet from cs2113f18 </b></p>
+               <div class="btn-wrap">
+                <a href="https://cs2113f18.github.io/java/JavaCheatSheet.pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+           <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>4</h3>
+               <p><b>C Reference Cheat Sheet by Ashlyn Black from cheatography.com/ </b></p>
+               <div class="btn-wrap">
+                <a href="https://cheatography.com/ashlyn-black/cheat-sheets/c-reference/" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+           <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>5</h3>
+               <p><b>cpp reference sheet from dreamincode.net </b></p>
+               <div class="btn-wrap">
+                <a href="https://www.dreamincode.net/downloads/ref_sheets/cpp_reference_sheet.pdf" class="btn-buy"target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>6</h3>
+               <p><b>PHP Cheat Sheet from ILoveJackDaniels.com </b></p>
+               <div class="btn-wrap">
+                <a href="http://www.cheat-sheets.org/saved-copy/php_cheat_sheet.pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+        <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>7</h3>
+               <p><b>Python 3 Cheat Sheet from perso.limsi.fr </b></p>
+               <div class="btn-wrap">
+                <a href="https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+         <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>8</h3>
+               <p><b>HTML Cheatsheet from stanford.edu </b></p>
+               <div class="btn-wrap">
+                <a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>9</h3>
+               <p><b>Node.js Cheatsheet from courses.cs.washington.edu </b></p>
+               <div class="btn-wrap">
+                <a href="https://courses.cs.washington.edu/courses/cse154/19su/resources/assets/cheatsheets/node-cheatsheet.pdf" class="btn-buy">Check Now</a>
+              </div>
+            </div>
+          </div>          
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>10</h3>
+               <p><b>C# Cheatsheet from thecodingguys </b></p>
+               <div class="btn-wrap">
+                <a href="https://www.thecodingguys.net/resources/cs-cheat-sheet.pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>11</h3>
+               <p><b>Base R Cheat Sheet  from rstudio </b></p>
+               <div class="btn-wrap">
+                <a href="https://rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>12</h3>
+               <p><b>SQL Cheat Sheet  from sqltutorial </b></p>
+               <div class="btn-wrap">
+                <a href="https://www.sqltutorial.org/wp-content/uploads/2016/04/SQL-cheat-sheet.pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>13</h3>
+               <p><b>OOPS Cheat sheet</b></p>
+               <div class="btn-wrap">
+                <a href="https://whimsical.com/object-oriented-programming-cheatsheet-by-love-babbar-YbSgLatbWQ4R5paV7EgqFw" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>14</h3>
+               <p><b>Git and GitHub CheatSheet</b></p>
+               <div class="btn-wrap">
+                <a href="https://education.github.com/git-cheat-sheet-education.pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0 mr-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <a href="#" class="btn-buy">View more</a>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>15</h3>
+               <p><b>C# Unit-Tests - Advanced Cheat Sheet</b></p>
+               <div class="btn-wrap">
+                <a href="https://cheatography.com/alienengineer/cheat-sheets/c-unit-tests-advanced/pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+         
+          
+          
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>16</h3>
+              <p><b>Time Complexity CheatSheet</b></p>
+              <div class="btn-wrap">
+                <a href="https://drive.google.com/file/d/1dQGv3tf05PnkG7qs8GAx1WSlN9fPONCS/view?usp=sharing" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>17</h3>
+              <p><b>Sieve of Eratosthenes</b></p>
+              <div class="btn-wrap">
+                <a href="https://www.ncmissouri.edu/tutoring-center/wp-content/uploads/sites/41/2019/07/Sieve-of-Eratosthenes.pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+          
+         
+          
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>1</h3>
+              <p><b>THE ULTIMATE FLUTTER CHEAT SHEET</b></p>
+              <div class="btn-wrap">
+                <a href="https://yaz.in/assets/flutter/Flutter%20Cheat%20Sheet.pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- <div class="col-lg-3 col-md-6 mt-4 mt-md-0 mr-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <a href="#" class="btn-buy">View more</a>
+          </div> -->
+  </section>
+      
+      
+      
+      <!-- End Cheetsheets Section -->
+        
+        <!-- ======= E-books Section ======= -->
+    <section id="E-books" class="pricing section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>E-books</h2>
+        </div>
+
+        <div class="row">
+          
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b>Data Structures and Algorithms By University of Birmingham, England </b></p>
+              <div class="btn-wrap">
+                <a href="https://www.cs.bham.ac.uk/~jxb/DSA/dsa.pdf" class="btn-buy" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b>Programming in Java By University of Crete, Greece </b></p>
+              <div class="btn-wrap">
+                <a href="https://www.csd.uoc.gr/~hy252/references/Programming%20in%20Java.pdf" class="btn-buy" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b>PHP : a Beginner's Guide {McGraw Hill Professional} By englishonlineclub.com </b></p>
+              <div class="btn-wrap">
+                <a href="http://englishonlineclub.com/pdf/PHP%20-%20A%20Beginner%E2%80%99s%20Guide%20[EnglishOnlineClub.com].pdf" class="btn-buy" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+        <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b>CSS basics By www.cssbasics.com </b></p>
+              <div class="btn-wrap">
+                <a href="https://www.cssbasics.com/full.pdf" class="btn-buy" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+          
+         <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b>Software Engineering for Students A Programming Approach By Douglas Bell - fourth edition </b></p>
+              <div class="btn-wrap">
+                <a href="http://web.firat.edu.tr/mbaykara/softwareengineering.pdf" class="btn-buy" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b>Data Mining. Concepts and Techniques, 3rd Edition  By myweb.sabanciuniv.edu </b></p>
+              <div class="btn-wrap">
+                <a href="http://myweb.sabanciuniv.edu/rdehkharghani/files/2016/02/The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf" class="btn-buy" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+           <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b>Principles of Modern Cryptography By crypto.stanford.edu/ </b></p>
+              <div class="btn-wrap">
+                <a href="https://crypto.stanford.edu/~dabo/cryptobook/draft_0_2.pdf" class="btn-buy" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b>Introduction to Data Mining By Vipin Kumar </b></p>
+              <div class="btn-wrap">
+                <a href="https://www-users.cs.umn.edu/~kumar001/dmbook/sol.pdf" class="btn-buy" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b>Modern Compiler Design By Springer </b></p>
+              <div class="btn-wrap">
+                <a href="http://160592857366.free.fr/joe/ebooks/ShareData/Modern%20Compiler%20Design%202e.pdf" class="btn-buy" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+           <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b>Machine Learning For Dummies By Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong</b></p>
+              <div class="btn-wrap">
+                <a href="https://www.ibm.com/downloads/cas/GB8ZMQZ3" class="btn-buy" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b>MATHEMATICS FOR MACHINE LEARNING, IBM Limited Edition</b></p>
+              <div class="btn-wrap">
+                <a href="https://mml-book.github.io/book/mml-book.pdf" class="btn-buy" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b>Fundamentals of Image Processing from homepages.inf.ed.ac.uk </b></p>
+              <div class="btn-wrap">
+                <a href="https://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/TUDELFT/FIP2_3.pdf" class="btn-buy" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b> Digital Image Processing 3rd ed. - R. Gonzalez </b></p>
+              <div class="btn-wrap">
+                <a href="http://sdeuoc.ac.in/sites/default/files/sde_videos/Digital%20Image%20Processing%203rd%20ed.%20-%20R.%20Gonzalez%2C%20R.%20Woods-ilovepdf-compressed.pdf" class="btn-buy" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b> Computer Vision: Foundation and Applications- Stanford University</b></p>
+              <div class="btn-wrap">
+                <a href="http://vision.stanford.edu/teaching/cs131_fall1718/files/cs131-class-notes.pdf" class="btn-buy" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+         <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b> Digital Electronics
+Principles, Devices and Applications - (DRDO), India </b></p>
+              <div class="btn-wrap">
+                <a href="https://www.shahucollegelatur.org.in/Department/Studymaterial/sci/it/BCA/FY/digielec.pdf" class="btn-buy" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+ <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b> Introduction to Data Warehousing and Business Intelligence </b></p>
+              <div class="btn-wrap">
+                <a href="https://cs.ulb.ac.be/public/_media/teaching/infoh415/dwnotes.pdf" class="btn-buy" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-lg-3 offset-lg-3 col-md-4 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <a href=#" class="btn-buy">View More</a>
+          </div> -->
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+               <p><b>Django cheat sheet from anarcho-copy.org </b></p>
+               <div class="btn-wrap">
+                <a href="https://edu.anarcho-copy.org/Programming%20Languages/Python/Python%20CheatSheet/beginners_python_cheat_sheet_pcc_django.pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+               <p><b> Intro to Bash Scripting </b></p>
+               <div class="btn-wrap">
+                <a href="assets/E-Books/Introduction to Bash Scripting eBook.pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+               <p><b>Complete Kali Linux Commands</b></p>
+               <div class="btn-wrap">
+                <a href="assets/E-Books/Complete_Kali_Linux_Commands_List.pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+               <p><b>Introduction to Modeling and Simulation</b></p>
+               <div class="btn-wrap">
+                <a href="assets/E-Books/Introduction to Modeling and Si - Steven I. Gordon.pdf" class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+          </section>
+      
+      <!-- End E-books Section -->
+
+   
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+       <div class="copyright-wrap d-md-flex py-4">
+        <div class="mr-md-auto text-center text-md-left">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Learn Free</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by Open Source Lovers</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+    
+  <br><br>
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
