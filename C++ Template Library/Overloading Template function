@@ -1,0 +1,43 @@
+//can template formation be overload? Yes then here is the code
+
+#include <iostream>
+using namespace std;
+
+template <class T>
+class namit
+{
+public:
+    T data;
+    namit(T a)
+    {
+        data = a;
+    }
+    void display();
+};
+
+template <class T>  // writing the class function outside using scope resolution operator
+void namit<T>::display()
+{
+    cout << data<<endl;
+}
+
+void func(int a)  //normal function
+{
+    cout<<"I am first func  "<<a<<endl;
+}
+
+template <class T>  // tempaltised function
+void func(T a)
+{
+    cout<<"I am templatised func  "<<a<<endl;
+}
+
+int main()
+{
+    namit<char> obj('c');
+    obj.display();
+
+    func(99); // exact match takes highest priority
+    func<char>(99); // if not found, then goes to template function
+    return 0;
+}
