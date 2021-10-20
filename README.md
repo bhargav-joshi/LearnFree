@@ -65,5 +65,9 @@ Contributions are what make the open source community such an amazing place to b
 - Add the codes of programming languages inside their folder (i.e python program inside Python Codes) 
    [ Otherwise the PR Won't be merged ]
 - Do the required changes and make PR again if your Pull Request is closed without merging.
+- Don't add any Paid Content links otherwise it will be your responsibility if the pull request is merged. 
+- Add Free Online available Material, Don't add any other which is confidential 
+- You are doing pull requests means you are done the changes and you are the one who is responsible for that code which is added 
+- Don't make spam pull requests or Issues
 
 Thanks 👍
