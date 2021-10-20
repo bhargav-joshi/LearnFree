@@ -62,5 +62,8 @@ Contributions are what make the open source community such an amazing place to b
 - If in comment it's written that pull request making conflicts then delete the forked repo and forked it again and make PR again by contributing 
 - If in comment anything required is written the do that
 - See this is Live Deployed Project so need yo maintain it properly
+- Add the codes of programming languages inside their folder (i.e python program inside Python Codes) 
+   [ Otherwise the PR Won't be merged ]
+- Do the required changes and make PR again if your Pull Request is closed without merging.
 
 Thanks 👍
