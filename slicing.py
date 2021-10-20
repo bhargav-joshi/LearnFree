@@ -16,3 +16,4 @@ print(my_tuple[7:])
 # elements beginning to end
 # Output: ('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z')
 print(my_tuple[:])
+print (my_tuple[::-1]
