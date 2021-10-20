@@ -51,3 +51,16 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes 
 4. Push to the Branch
 5. Open a Pull Request (`Guidelines - Write What you have Added ?`)
+
+## 🔰 Important ‼️ 
+- Don't add Anything
+- If you wants to add other code like some Programs or better approach solutions then create one folder and add in it. 
+- Don't add Programs or other code except html tags and code in Index.html
+- Grammatical mistakes aren't considered as that much valid so don't just put that only
+- For Hacktoberfest : Don't just make changes of grammer or spaces
+- If your Pull Request is not accepted and closed means there's something that needs changes 
+- If in comment it's written that pull request making conflicts then delete the forked repo and forked it again and make PR again by contributing 
+- If in comment anything required is written the do that
+- See this is Live Deployed Project so need yo maintain it properly
+
+Thanks 👍
