@@ -2,12 +2,26 @@
 <html lang="en">
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>LearnFree</title>
   <meta content="LearnFree" name="descriptison">
-  <meta content="LearnFree" name="keywords">
+  <meta content="LearnFree,learntoday,learnfreeyoutube,channel,coding,programming" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -32,7 +46,14 @@
 </head>
 
 <body>
+<button onclick="myFunction()">mode</button>
 
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container-fluid">
@@ -517,7 +538,7 @@
           <h2>E-books</h2>
         </div>
 
-        <class class="row">
+        <div class="row">
 
           <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
             <div class="box featured">
@@ -723,11 +744,17 @@
               </div>
             </div>
           </div>
-
-
-
-          <!-- Cracking The Coding Interview -->
-
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <p><b>Laravel 8 cheatsheet</b></p>
+              <div class="btn-wrap">
+                <a href="https://learninglaravel.net/cheatsheet"
+                  class="btn-buy" target="_blank">Check Now</a>
+              </div>
+            </div>
+          </div>
+          
+     <!--  Cracking The Coding Interview  -->
           <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
             <div class="box featured">
               <p><b>Cracking The Coding Interview</b></p>
@@ -736,10 +763,10 @@
                   class="btn-buy" target="_blank">Check Now</a>
               </div>
             </div>
-          </div>
     </section>
 
     <!-- End E-books Section -->
+
 
 
     <!-- ======= Footer ======= -->
