@@ -1,0 +1,126 @@
+#include<iostream>
+using namespace std;
+struct node
+{
+    int data;
+    node* left;
+    node* right;
+};
+node* root=NULL;
+node* getnew(int data)
+{
+    node*temp=new node();
+    temp->data=data;
+    temp->left=temp->right=NULL;
+    return temp;
+}
+node* insert(node* root,int data)
+{
+    if(root==NULL)
+    {
+        root=getnew(data);
+    }
+    else if(data<=root->data)
+    {
+        root->left=insert(root->left,data);
+    }
+    else
+    {
+        root->right=insert(root->right,data);
+    }
+    return root;
+}
+void print(node* root)
+{
+    if(root==NULL)return;
+    print(root->left);
+    cout<<root->data<<" ";
+    print(root->right);
+}
+node* findmin(node*root)
+{
+    if(root==NULL)
+    {
+        return 0;
+    }
+    node* temp=root;
+    while(temp!=NULL)
+    {
+        temp=temp->left;
+    }
+    return root;
+    
+}
+node* Delete(node* root,int data)
+{
+    if(root==NULL)
+    {
+        return root;
+    }
+    else if(data<root->data)
+    {
+        root->left=Delete(root->left,data);
+    }
+    else if(data>root->data)
+    {
+        root->right=Delete(root->right,data);
+    }
+    else
+    {
+        //case1 where node is leaf
+        if(root->left==NULL&& root->right==NULL)
+        {
+            delete root;
+            root=NULL;
+            
+        }
+        //case2  where node has 1 child
+        else if(root->left==NULL)
+        {
+            node* temp=root;
+            root=temp->right;
+            delete temp;
+            
+            
+        }
+        else if(root->right==NULL)
+        {
+            node* temp=root;
+            root=temp->left;
+            delete temp;
+    
+        }
+        //case 3 where node has 2 child then we find mininmum of right sub-tree or the max of left sub-tree then swap
+        else
+        {
+            node* temp=findmin(root->right);
+            root->data=temp->data;
+            root->right=Delete(root->right,temp->data);
+        }
+    }
+    return root;
+}
+
+int main()
+{
+    node* root=NULL;
+    cout<<"enter the no. of nodes you want to inser in the list\n:";
+    int range,data;
+    cin>>range;
+    for(int i=1;i<=range;i++)
+    {
+        cout<<"enter the "<<i<<" number\n:";
+        cin>>data;
+        root=insert(root,data);
+        
+    }
+    cout<<"the tree is\n";
+    print(root);
+    cout<<"\nenter the number you want to delete from the tree\n:";
+    int del;
+    cin>>del;
+    cout<<"after the deletion the list is\n:";
+    root=Delete(root,del);
+    print(root);
+    return 0;
+}
