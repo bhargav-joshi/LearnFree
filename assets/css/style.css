@@ -1649,3 +1649,12 @@ section {
   color: #fff;
   text-decoration: none;
 }
+/********************************************************************
+# learn-python.html
+********************************************************************/
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
