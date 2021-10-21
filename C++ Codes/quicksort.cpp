@@ -1,37 +1,59 @@
-#include<bits/stdc++.h>
-using namespace std;
-int partition(vector<int>& a,int s,int e)
+#include<stdio.h>
+ 
+
+void swap(int* a, int* b)
 {
-    int i=s-1;
-    int pivot=a[e];
-    int j;
-    for(j=s;j<e;j++)
+    int t = *a;
+    *a = *b;
+    *b = t;
+}
+
+int partition (int arr[], int low, int high)
+{
+    int pivot = arr[high];    
+    int i = (low - 1); 
+    for (int j = low; j <= high- 1; j++)
     {
-        if(a[j]<pivot)
+      
+        if (arr[j] <= pivot)
         {
-            i++;
-        swap(a[i],a[j]);
+            i++;   
+            swap(&arr[i], &arr[j]);
         }
     }
-    swap(a[i+1],a[e]);
-    return i+1;
+    swap(&arr[i + 1], &arr[high]);
+    return (i + 1);
 }
-void quicksort(vector<int>& a,int s,int e)
+ 
+
+void quickSort(int arr[], int low, int high)
 {
-    //base case
-    if(s>=e)
-    return;
-    int p=partition(a,s,e);
-    quicksort(a,s,p-1);
-    quicksort(a,p+1,e);
+    if (low < high)
+    {
+       
+        int pi = partition(arr, low, high);
+ 
+        quickSort(arr, low, pi - 1);
+        quickSort(arr, pi + 1, high);
+    }
 }
+ 
+
+void printArray(int arr[], int size)
+{
+    int i;
+    for (i=0; i < size; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+}
+ 
+
 int main()
 {
-    vector<int>arr{21,4,32,2,78,66,9,90,1};
-    int s=0,e=arr.size()-1;
-    quicksort(arr,s,e);
-    for(int x:arr)
-    {
-        cout<<x<<",";
-    }
+    int arr[] = {10, 7, 8, 9, 1, 5};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    quickSort(arr, 0, n-1);
+    printf("Sorted array: \n");
+    printArray(arr, n);
+    return 0;
 }

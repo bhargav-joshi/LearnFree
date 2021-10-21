@@ -1,19 +1,16 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
-
+  
 int main()
 {
-    int a = 5, b = 10, temp;
-
-    cout << "Before swapping." << endl;
-    cout << "a = " << a << ", b = " << b << endl;
-
-    temp = a;
-    a = b;
-    b = temp;
-
-    cout << "\nAfter swapping." << endl;
-    cout << "a = " << a << ", b = " << b << endl;
-
+    int a = 10;
+    int b = 20;
+    cout << "Value of a before: " << a << endl;
+    cout << "Value of b before: " << b << endl;
+  
+    // swap values of the variables
+    swap(a, b);
+    cout << "Value of a now: " << a << endl;
+    cout << "Value of b now: " << b << endl;
     return 0;
 }
