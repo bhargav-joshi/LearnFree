@@ -1,0 +1,36 @@
+import java.util.*;
+import java.util.function.Predicate; 
+
+class GfG
+{
+    // Take a Collection and a Predicate
+    // Predicate helps in unit-testing
+    // Collection can accept LinkedList,
+    // ArrayList, Queue etc
+    static void printCond(
+        Collection<Integer> c, 
+        Predicate<Integer> p)
+    {
+        // Traverse the Collection
+        // Print only those elements which
+        // pass the test
+        for (Integer x: c)
+            if(p.test(x))
+                System.out.print(x + " ");
+    }
+    public static void main(String args[])
+    {
+        // ArrayList to check the function
+        List<Integer> al 
+        = new ArrayList<>(
+            Arrays.asList(
+                10, 5, 20, 7, 30));
+        
+        // Passes the collection and a 
+        // lambda expression which is a functional
+        // interface
+        // This lambda expression maps the test
+        // function of abstract method
+        printCond(al, x -> x%2 == 0);
+    }
+}
