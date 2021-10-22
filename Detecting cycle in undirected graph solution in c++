@@ -1,0 +1,52 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+struct tree{
+	int val;
+	tree * left;
+	tree * right;
+};
+ 
+tree * addNode(tree* root, int x){
+	if(root==NULL){
+		tree * a = new tree();
+		a->left = NULL;
+		a->right = NULL;
+		a->val = x;
+		root = a;
+		return root;
+	}
+	if(root->val<x){
+		root->right = addNode(root->right,x);
+	}
+	else{
+		root->left = addNode(root->left,x);
+	}
+ 
+	return root;
+}
+ 
+void inorder(tree * root){
+	if(root == NULL)return;
+ 
+	inorder(root->left);
+	cout<<root->val<<" ";
+	inorder(root->right);
+ 
+ 
+}
+ 
+int main(){
+	int n;
+	cout<<"Size of tree : \n";
+	cin>>n;
+	tree * root = NULL;
+	for(int i=0; i<n; i++){
+		int x;
+		cin>>x;
+		root = addNode(root,x);
+	}
+	cout<<"Printed Values : \n";
+	inorder(root);
+ 
+}
