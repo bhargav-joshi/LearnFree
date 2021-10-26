@@ -1,0 +1,86 @@
+*{
+    font-family: sans-serif;
+}
+
+#remote-container video{
+    height: auto;
+    position: relative !important;
+}
+#me{
+    position: relative;
+    width: 10cm;
+    height:10cm;
+    
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+      
+  
+}
+#me:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+#me video{
+    position: relative !important;
+}
+#remote-container{
+    width: 10cm;
+    height:10cm;
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    position:absolute;
+    top:5.8cm;
+    left:23cm;
+}
+#remote-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .joinn{
+      position:absolute;
+    top:7cm;
+    left:15cm;
+  }
+.ssdd{
+    position:absolute;
+    top:8.6cm;
+    left:16.5cm;
+}
+  
+body {
+    font-family: Helvetica;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 16px;
+  }
+  
+  .background {
+    background-color: #639;
+    background-image: linear-gradient(45deg, #000, #000 0.5%, #ffd700 0.5%, #ffd700 7.6%, #000 7.6%, #000 8.642857143%, #ff8c00 8.642857143%, #ff8c00 15.64285714%, #000 15.64285714%, #000 16.88571429%, #dc143c 16.88571429%, #dc143c 23.84285714%, #000 23.84285714%, #000 25%, transparent 25%), linear-gradient(-45deg, #000, #000 0.5%, #ffd700 0.5%, #ffd700 7.6%, #000 7.6%, #000 8.642857143%, #ff8c00 8.642857143%, #ff8c00 15.64285714%, #000 15.64285714%, #000 16.88571429%, #dc143c 16.88571429%, #dc143c 23.84285714%, #000 23.84285714%, #000 25%, transparent 25%), linear-gradient(45deg, transparent 73.85714286%, #000 73.85714286%, #000 75%, transparent 75%), linear-gradient(-45deg, transparent 73.85714286%, #000 73.85714286%, #000 75%, transparent 75%), linear-gradient(45deg, transparent 66.85714286%, #dc143c 66.85714286%, #dc143c 73.85714286%, transparent 73.85714286%), linear-gradient(-45deg, transparent 66.85714286%, #dc143c 66.85714286%, #dc143c 73.85714286%, transparent 73.85714286%), linear-gradient(45deg, transparent 65.71428571%, #000 65.71428571%, #000 66.85714286%, transparent 66.85714286%), linear-gradient(-45deg, transparent 65.71428571%, #000 65.71428571%, #000 66.85714286%, transparent 66.85714286%), linear-gradient(45deg, transparent 58.71428571%, #ff8c00 58.71428571%, #ff8c00 65.71428571%, transparent 65.71428571%), linear-gradient(-45deg, transparent 58.71428571%, #ff8c00 58.71428571%, #ff8c00 65.71428571%, transparent 65.71428571%), linear-gradient(45deg, transparent 57.57142857%, #000 57.57142857%, #000 58.71428571%, transparent 58.71428571%), linear-gradient(-45deg, transparent 57.57142857%, #000 57.57142857%, #000 58.71428571%, transparent 58.71428571%), linear-gradient(45deg, transparent 50.57142857%, #ffd700 50.57142857%, #ffd700 57.57142857%, transparent 57.57142857%), linear-gradient(-45deg, transparent 50.57142857%, #ffd700 50.57142857%, #ffd700 57.57142857%, transparent 57.57142857%), linear-gradient(45deg, transparent 49.42857143%, #000 49.42857143%, #000 50.57142857%, transparent 50.57142857%), linear-gradient(-45deg, transparent 49.42857143%, #000 49.42857143%, #000 50.57142857%, transparent 50.57142857%), linear-gradient(45deg, transparent 42.42857143%, #228b22 42.42857143%, #228b22 49.42857143%, transparent 49.42857143%), linear-gradient(-45deg, transparent 42.42857143%, #228b22 42.42857143%, #228b22 49.42857143%, transparent 49.42857143%), linear-gradient(45deg, transparent 41.28571429%, #000 41.28571429%, #000 42.42857143%, transparent 42.42857143%), linear-gradient(-45deg, transparent 41.28571429%, #000 41.28571429%, #000 42.42857143%, transparent 42.42857143%), linear-gradient(45deg, transparent 34.28571429%, #4169e1 34.28571429%, #4169e1 41.28571429%, transparent 41.28571429%), linear-gradient(-45deg, transparent 34.28571429%, #4169e1 34.28571429%, #4169e1 41.28571429%, transparent 41.28571429%), linear-gradient(45deg, transparent 33.142857143%, #000 33.142857143%, #000 34.28571429%, transparent 34.28571429%), linear-gradient(-45deg, transparent 33.142857143%, #000 33.142857143%, #000 34.28571429%, transparent 34.28571429%);
+    background-size: 100px 100px;
+    background-position: 0 0;
+  }
+  
+  .content {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 5% 0;
+    padding: 5%;
+  }
+  
+  .h1 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  
+  
+  .footer {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 0.7rem;
+  }
+  
