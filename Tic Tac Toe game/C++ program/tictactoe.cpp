@@ -1,8 +1,4 @@
-#include <iostream>
-#include<list>
-#include <cstdlib>
-#include<string>
-#include <ctime>
+#include<bits/stdc++.h>
 using namespace std;
  
 typedef struct{
