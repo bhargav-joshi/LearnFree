@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+int max(int x, int y)
+{
+    if (x > y)
+        return x;
+    else
+        return y;
+}
+
+int stock1(int price[], int start, int end)
+{
+    if (start >= end)
+        return 0;
+    int profit = 0;
+
+    for (int i = start; i < end; i++)
+    {
+        for (int j = i + 1; j <= end; j++)
+        {
+            if (price[j] > price[i])
+            {
+                int curr_profit = price[j] - price[i] + stock1(price, start, i - 1) + stock1(price, j + 1, end);
+
+                profit = max(profit, curr_profit);
+            }
+        }
+    }
+    return profit;
+}
+
+int main()
+{
+int price[5] = {3, 5, 1, 8, 12};
+cout << stock1(price, start, end - 1);
+return 0;
+}
