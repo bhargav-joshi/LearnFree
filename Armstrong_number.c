@@ -3,7 +3,7 @@
 int main()
 {
 int n,s,r,n1,c,x;
-printf("Enter the range:\n");
+printf("Enter the range i.e th end number:\n");
 scanf("%d",&x);
 for(n=1;n<=x;n++)
 {
