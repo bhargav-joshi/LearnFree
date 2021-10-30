@@ -1,3 +1,6 @@
+// 37. Sudoku Solver
+// https://leetcode.com/problems/sudoku-solver/
+
 class Solution {
 public:
     void solveSudoku(vector<vector<char>>& board) {
