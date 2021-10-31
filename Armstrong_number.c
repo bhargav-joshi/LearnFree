@@ -1,19 +1,28 @@
 #include<stdio.h>  
- int main()    
-{    
-int n,r,sum=0,temp;    
-printf("enter the number=");    
-scanf("%d",&n);    
-temp=n;    
-while(n>0)    
-{    
-r=n%10;    
-sum=sum+(r*r*r);    
-n=n/10;    
-}    
-if(temp==sum)    
-printf("armstrong  number ");    
-else    
-printf("not armstrong number");    
-return 0;  
-} 
+#include<math.h>
+int main()
+{
+int n,s,r,n1,c,x;
+printf("Enter the range i.e th end number:\n");
+scanf("%d",&x);
+for(n=1;n<=x;n++)
+{
+    c=0;
+    n1=n;
+    while(n1!=0){
+        n1=n1/10;
+        c++;
+    }
+    n1=n;
+    s=0;
+    while(n1!=0)
+    {
+        r=n1%10;
+        s=s+pow(r,c);
+        n1=n1/10;
+    }
+    if(s==n)
+    printf("%d\t",n);
+}
+return 0;
+}

@@ -1,14 +1,12 @@
 #include<stdio.h>
  
 int main() {
-   int a, b, sub;
+   int a, b;
  
    printf("\nEnter two no: ");
    scanf("%d %d", &a, &b);
  
-   sum = a - b;
+   printf("Difference is  : %d", (a + ~b + 1));
  
-   printf("Sub : %d", sum);
- 
-   return(0);
+   return 0;
 }
