@@ -1,4 +1,7 @@
+<h2 align="center">This repository will become read-only (*Archive) from 2022.</h2>
+
 <h1 align="center">LearnFree - The Free Learning Portal for Everyone 👋</h1>
+
 <p align="center">
   <img src="https://img.shields.io/github/release-date/bhargav-joshi/LearnFree?style=for-the-badge&color=blue" />
    <img src="https://img.shields.io/github/contributors/bhargav-joshi/LearnFree?style=for-the-badge&color=orange" />
